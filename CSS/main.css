@@ -28,6 +28,9 @@ body {
 /*BREAKPOINT DESKTOP*/
 @media (min-width: 1200px) {
   /*Start Pre-loader Style*/
+  .font1 {
+    font: "Roboto", sans-serif;
+  }
   .contenedor_loader {
     background-color: #f3f3f3;
     position: fixed;
@@ -79,7 +82,18 @@ body {
     width: 100x;
     height: 100px;
   }
+  #carouselImg {
+    object-fit: contain;
+    width: 1720px;
+    height: 560px;
+  }
 }
+.mainImg {
+  width: 560px;
+  height: 320px;
+  object-fit: fill;
+}
+
 /*BREAKPOINT TABLET*/
 /*BREAKPOINT MOBILE*/
 
