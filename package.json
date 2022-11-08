@@ -1,0 +1,24 @@
+{
+  "name": "mjpb_web_design",
+  "version": "1.0.0",
+  "description": "MJPb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxi27Lopez/MJPb.git"
+  },
+  "author": "Mauro G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxi27Lopez/MJPb/issues"
+  },
+  "homepage": "https://github.com/Maxi27Lopez/MJPb#readme",
+  "dependencies": {
+    "sass": "^1.56.0"
+  }
+}

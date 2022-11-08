@@ -3,3 +3,4 @@ window.addEventListener ('load', () => {
     contenedor_loader.style.visibility = 0
     contenedor_loader.style.visibility = 'hidden'
 })
+
